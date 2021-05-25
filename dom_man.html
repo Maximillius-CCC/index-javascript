@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            border: 2px solid red;
+        }
+        img{
+            width:50%;
+        }
+
+        th{
+            text-align: left;
+            margin-left:3rem;
+        }
+
+        h2{
+            color:purple;
+        }
+      
+
+        .table_image{
+            display: block;
+            margin:0, auto;
+        }
+
+        textarea{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="mainHeader">this is my big title</h1>
+
+    <table>
+      <tr>
+          <th><h2>Product</h2></th>
+          <th class="table_image"><h2>Image</h2></th>
+          <th><h2>Description</h2></th>
+      </tr>
+      <tr>
+          <th>Product One</th>
+          <th class="table_image"> <a href="https://www.amazon.es/Nintendo-10007278-amiibo-Zelda-pel%C3%ADcaro/dp/B095BSLP25/ref=zg_bs_videogames_home_1?_encoding=UTF8&psc=1&refRID=CJA61XH9CVM7SM4X7HX3" target=_blank><img src=https://images-na.ssl-images-amazon.com/images/I/81LoElgKlpS._AC_SL1500_.jpg alt="zelda"> </a></th>
+          <th> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore laboriosam quam recusandae eveniet illo ab praesentium aliquam. Adipisci, magni nesciunt iste nobis expedita incidunt saepe! Dolorum cumque tempora ipsum maiores, pariatur laudantium eum nobis ad aspernatur quae mollitia iusto quibusdam dignissimos eligendi nam eveniet corrupti magnam, illum nostrum odio!</p></th>
+      </tr>
+      <tr>
+        <th>Product Two</th>
+        <th class="table_image"> <a href="https://www.amazon.es/Nintendo-10007278-amiibo-Zelda-pel%C3%ADcaro/dp/B095BSLP25/ref=zg_bs_videogames_home_1?_encoding=UTF8&psc=1&refRID=CJA61XH9CVM7SM4X7HX3" target=_blank><img src=https://images-na.ssl-images-amazon.com/images/I/81LoElgKlpS._AC_SL1500_.jpg alt="zelda"> </a></th>
+        <th> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore laboriosam quam recusandae eveniet illo ab praesentium aliquam. Adipisci, magni nesciunt iste nobis expedita incidunt saepe! Dolorum cumque tempora ipsum maiores, pariatur laudantium eum nobis ad aspernatur quae mollitia iusto quibusdam dignissimos eligendi nam eveniet corrupti magnam, illum nostrum odio!</p></th>
+    </tr>
+    <tr>
+        <th>Product Three</th>
+        <th class="table_image"> <a href="https://www.amazon.es/Nintendo-10007278-amiibo-Zelda-pel%C3%ADcaro/dp/B095BSLP25/ref=zg_bs_videogames_home_1?_encoding=UTF8&psc=1&refRID=CJA61XH9CVM7SM4X7HX3" target=_blank><img src=https://images-na.ssl-images-amazon.com/images/I/81LoElgKlpS._AC_SL1500_.jpg alt="zelda"> </a></th>
+        <th> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore laboriosam quam recusandae eveniet illo ab praesentium aliquam. Adipisci, magni nesciunt iste nobis expedita incidunt saepe! Dolorum cumque tempora ipsum maiores, pariatur laudantium eum nobis ad aspernatur quae mollitia iusto quibusdam dignissimos eligendi nam eveniet corrupti magnam, illum nostrum odio!</p></th>
+    </tr>
+    <tr>
+        <th>Product Four</th>
+        <th class="table_image"> <a href="https://www.amazon.es/Nintendo-10007278-amiibo-Zelda-pel%C3%ADcaro/dp/B095BSLP25/ref=zg_bs_videogames_home_1?_encoding=UTF8&psc=1&refRID=CJA61XH9CVM7SM4X7HX3" target=_blank><img src=https://images-na.ssl-images-amazon.com/images/I/81LoElgKlpS._AC_SL1500_.jpg alt="zelda"> </a></th>
+        <th> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore laboriosam quam recusandae eveniet illo ab praesentium aliquam. Adipisci, magni nesciunt iste nobis expedita incidunt saepe! Dolorum cumque tempora ipsum maiores, pariatur laudantium eum nobis ad aspernatur quae mollitia iusto quibusdam dignissimos eligendi nam eveniet corrupti magnam, illum nostrum odio!</p></th>
+    </tr>
+    <tr>
+        <th>Product Five</th>
+        <th class="table_image"> <a href="https://www.amazon.es/Nintendo-10007278-amiibo-Zelda-pel%C3%ADcaro/dp/B095BSLP25/ref=zg_bs_videogames_home_1?_encoding=UTF8&psc=1&refRID=CJA61XH9CVM7SM4X7HX3" target=_blank><img src=https://images-na.ssl-images-amazon.com/images/I/81LoElgKlpS._AC_SL1500_.jpg alt="zelda"> </a></th>
+        <th> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem labore laboriosam quam recusandae eveniet illo ab praesentium aliquam. Adipisci, magni nesciunt iste nobis expedita incidunt saepe! Dolorum cumque tempora ipsum maiores, pariatur laudantium eum nobis ad aspernatur quae mollitia iusto quibusdam dignissimos eligendi nam eveniet corrupti magnam, illum nostrum odio!</p></th>
+    </tr>
+    </table>
+    <div>
+        <textarea cols="150" rows="25">
+
+        </textarea>
+    </div>
+    <footer>
+        <p>The Wizard's Shop</p>
+        <p>29 Yellow Brick Road</p>
+        <p>Land of Oz</p>
+        <p>03145</p>
+    </footer>
+ <script>
+    
+    const changeHeaderText = function(){
+        let changeHeaderText = document.getElementById(mainHeader)
+        let changeHeaderText =
+    }
+
+ </script>   
+</body>
+</html>
